@@ -25,3 +25,7 @@ label_settings = SubResource("LabelSettings_tyfxe")
 lifetime = 5.0
 speed_scale = 0.25
 fixed_fps = 30
+linear_accel_min = 100.0
+linear_accel_max = 100.0
+tangential_accel_min = 100.0
+tangential_accel_max = 100.0
