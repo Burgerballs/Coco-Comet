@@ -25,6 +25,10 @@ window/size/window_height_override=960
 window/stretch/mode="canvas_items"
 window/stretch/scale_mode="integer"
 
+[editor_plugins]
+
+enabled=PackedStringArray("res://addons/aseprite_importer/plugin.cfg")
+
 [rendering]
 
 renderer/rendering_method="gl_compatibility"
