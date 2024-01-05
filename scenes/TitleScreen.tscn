@@ -9,17 +9,10 @@ font_size = 8
 
 [node name="TitleScreen" type="Node2D"]
 
-[node name="Label" type="Label" parent="."]
-texture_filter = 1
-offset_right = 40.0
-offset_bottom = 23.0
-text = "This is a temporary placeholder
-until we add actual stuff here
-
-oh yeah i forgot welcome to
-the game coco comet i think its
-cool i guess!"
-label_settings = SubResource("LabelSettings_tyfxe")
+[node name="ColorRect" type="ColorRect" parent="."]
+offset_right = 256.0
+offset_bottom = 240.0
+color = Color(0, 0, 0, 1)
 
 [node name="CPUParticles2D" parent="." instance=ExtResource("2_rl1q0")]
 lifetime = 5.0
@@ -29,3 +22,16 @@ linear_accel_min = 100.0
 linear_accel_max = 100.0
 tangential_accel_min = 100.0
 tangential_accel_max = 100.0
+
+[node name="Label" type="Label" parent="."]
+texture_filter = 1
+offset_right = 256.0
+offset_bottom = 63.0
+text = "This is a temporary placeholder
+until we add actual stuff here
+
+oh yeah i forgot welcome to
+the game coco comet i think its
+cool i guess!"
+label_settings = SubResource("LabelSettings_tyfxe")
+horizontal_alignment = 1
