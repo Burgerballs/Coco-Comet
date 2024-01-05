@@ -1,3 +1,27 @@
-[gd_scene format=3 uid="uid://dg4g5w36qdiso"]
+[gd_scene load_steps=4 format=3 uid="uid://dg4g5w36qdiso"]
+
+[ext_resource type="FontFile" uid="uid://d2yjkefbuityj" path="res://assets/fonts/tmnt-tournament-fighters-nes.ttf" id="1_fhtbv"]
+[ext_resource type="PackedScene" uid="uid://ebbyu2llqbmf" path="res://objects/starfield.tscn" id="2_rl1q0"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_tyfxe"]
+font = ExtResource("1_fhtbv")
+font_size = 8
 
 [node name="TitleScreen" type="Node2D"]
+
+[node name="Label" type="Label" parent="."]
+texture_filter = 1
+offset_right = 40.0
+offset_bottom = 23.0
+text = "This is a temporary placeholder
+until we add actual stuff here
+
+oh yeah i forgot welcome to
+the game coco comet i think its
+cool i guess!"
+label_settings = SubResource("LabelSettings_tyfxe")
+
+[node name="CPUParticles2D" parent="." instance=ExtResource("2_rl1q0")]
+lifetime = 5.0
+speed_scale = 0.25
+fixed_fps = 30

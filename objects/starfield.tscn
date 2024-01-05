@@ -1,0 +1,13 @@
+[gd_scene format=3 uid="uid://ebbyu2llqbmf"]
+
+[node name="CPUParticles2D" type="CPUParticles2D"]
+position = Vector2(-152, 120)
+amount = 1000
+lifetime = 10.0
+emission_shape = 3
+emission_rect_extents = Vector2(1, 240)
+direction = Vector2(5, 2.08165e-12)
+spread = 0.0
+gravity = Vector2(980, 2.08165e-12)
+initial_velocity_min = 298.68
+initial_velocity_max = 445.14
